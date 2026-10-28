@@ -66,7 +66,7 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .about-label p { font-size: .78rem; font-weight: 800; margin-top: 15px; }
 .editable-copy { max-width: 780px; }
 .editable-copy p { margin-bottom: 22px; color: #52616b; }
-.career-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }
+.career-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 17px; }
 .career-card { background: white; border: 1px solid #e1e8e3; border-radius: 10px; padding: 26px; }
 .card-index, .artifact-top, .field-label, .human-in-loop span { font: 500 .64rem var(--mono); letter-spacing: .07em; color: var(--teal); }
 .career-card h3 { font-size: 1.35rem; margin: 18px 0 24px; }
@@ -120,7 +120,6 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
   .hero { min-height: auto; padding-top: 75px; }
   .photo-placeholder { min-height: 320px; }
   .career-grid { grid-template-columns: 1fr 1fr; }
-  .career-card:last-child { grid-column: 1 / -1; }
 }
 @media (max-width: 680px) {
   .site-header { padding: 13px 5vw; }
